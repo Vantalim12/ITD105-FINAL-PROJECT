@@ -1,4 +1,4 @@
-# 🐟 SDG 14: Fish Species Conservation Status Prediction System
+# SDG 14: Fish Species Conservation Status Prediction System
 
 ## ITD105 - Big Data Analytics | Case Study Project
 
@@ -8,21 +8,21 @@ A machine learning-powered web application that predicts fish species conservati
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project uses **classification-based predictive modeling** to assess the conservation status of fish species, helping identify marine biodiversity risks related to overfishing and ecosystem degradation.
 
 ### Key Features
-- ✅ Compares 5 beginner-friendly classification algorithms
-- ✅ Interactive Streamlit dashboard with 5 comprehensive pages
-- ✅ Real-time conservation status predictions
-- ✅ Beautiful data visualizations
-- ✅ Model performance comparison dashboard
-- ✅ Ready for deployment on Streamlit Cloud
+- Compares 5 beginner-friendly classification algorithms
+- Interactive Streamlit dashboard with 5 comprehensive pages
+- Real-time conservation status predictions
+- Beautiful data visualizations
+- Model performance comparison dashboard
+- Ready for deployment on Streamlit Cloud
 
 ---
 
-## 🌊 SDG 14 Alignment
+## SDG 14 Alignment
 
 **SDG 14: Life Below Water** focuses on conserving and sustainably using oceans, seas, and marine resources.
 
@@ -34,7 +34,7 @@ This project supports SDG 14 by:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -70,7 +70,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 📊 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ### Classification Algorithms Compared
 1. **Logistic Regression**
@@ -98,13 +98,13 @@ The app will open in your browser at `http://localhost:8501`
 - **Population Size**: Number of individuals (in thousands)
 
 ### Target Variable (Conservation Status)
-- **Good** 🟢 - Healthy and sustainable population
-- **Moderate** 🟡 - Population showing warning signs
-- **Poor** 🔴 - High risk or endangered
+- **Good** - Healthy and sustainable population
+- **Moderate** - Population showing warning signs
+- **Poor** - High risk or endangered
 
 ---
 
-## 🖥️ Web Application Pages
+## Web Application Pages
 
 ### Page 1: SDG 14 Overview
 - Description of SDG 14 and project motivation
@@ -138,7 +138,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ITD105-Final-Project/
@@ -156,17 +156,17 @@ ITD105-Final-Project/
 
 ---
 
-## 🎨 Application Screenshots
+## Application Screenshots
 
 ### Dashboard Features
-- 📊 Interactive visualizations
-- 🔍 Real-time predictions
-- 📈 Model performance metrics
-- 🌍 Conservation insights
+- Interactive visualizations
+- Real-time predictions
+- Model performance metrics
+- Conservation insights
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Streamlit Cloud Deployment
 
@@ -187,7 +187,7 @@ ITD105-Final-Project/
 
 ---
 
-## 👥 Group Task Distribution
+## Group Task Distribution
 
 | Member | Responsibility |
 |--------|---------------|
@@ -199,7 +199,7 @@ ITD105-Final-Project/
 
 ---
 
-## 📚 Technologies Used
+## Technologies Used
 
 - **Python 3.8+** - Programming language
 - **Pandas** - Data manipulation
@@ -210,18 +210,18 @@ ITD105-Final-Project/
 
 ---
 
-## 🔬 Expected Outputs
+## Expected Outputs
 
-✅ Trained multi-class classification model  
-✅ Interactive Streamlit web application  
-✅ Model comparison dashboard  
-✅ Real-time prediction tool  
-✅ Comprehensive documentation  
-✅ Ready for online deployment  
+- Trained multi-class classification model  
+- Interactive Streamlit web application  
+- Model comparison dashboard  
+- Real-time prediction tool  
+- Comprehensive documentation  
+- Ready for online deployment  
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Machine learning can effectively predict conservation status with high accuracy
 - Multiple models should be compared to select the best performer
@@ -231,7 +231,7 @@ ITD105-Final-Project/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Integration with real-world fishery databases
 - Time-series analysis for population trend forecasting
@@ -243,7 +243,7 @@ ITD105-Final-Project/
 
 ---
 
-## 📖 References
+## References
 
 - [UN SDG 14: Life Below Water](https://sdgs.un.org/goals/goal14)
 - [IUCN Red List of Threatened Species](https://www.iucnredlist.org/)
@@ -253,25 +253,25 @@ ITD105-Final-Project/
 
 ---
 
-## 📝 License
+## License
 
 This project is developed for educational purposes as part of ITD105 - Big Data Analytics course.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a course project, but suggestions and feedback are welcome!
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration opportunities, please contact the project team.
 
 ---
 
-## 🎓 Course Information
+## Course Information
 
 **Course:** ITD105 - Big Data Analytics  
 **Project:** Case Study - Development of an Integrated Web Application with Machine Learning Predictive Modeling  
@@ -279,7 +279,7 @@ For questions or collaboration opportunities, please contact the project team.
 
 ---
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 - United Nations for the Sustainable Development Goals framework
@@ -289,10 +289,10 @@ Special thanks to:
 ---
 
 <p align="center">
-  <strong>Together, we can protect life below water! 🌊🐟</strong>
+  <strong>Together, we can protect life below water!</strong>
 </p>
 
 <p align="center">
-  Made with ❤️ for marine conservation
+  Made with dedication for marine conservation
 </p>
 
