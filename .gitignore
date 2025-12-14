@@ -32,9 +32,6 @@ wheels/
 # VS Code
 .vscode/
 
-# Streamlit
-.streamlit/
-
 # OS
 .DS_Store
 Thumbs.db
