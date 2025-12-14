@@ -6,6 +6,10 @@ A machine learning-powered web application that predicts fish species conservati
 
 ![SDG 14](https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Inverted-Icons_WEB-14.png)
 
+### Live Application
+
+**Access the deployed web application:** [https://itd105-final-project.streamlit.app/](https://itd105-final-project.streamlit.app/)
+
 ---
 
 ## Project Overview
@@ -36,11 +40,19 @@ This project supports SDG 14 by:
 
 ## Quick Start
 
+### Access the Live Application
+
+**Try the application online:** [https://itd105-final-project.streamlit.app/](https://itd105-final-project.streamlit.app/)
+
+### Local Installation
+
+If you want to run the application locally:
+
 ### Prerequisites
 - Python 3.8 or higher
 - pip package manager
 
-### Installation
+### Installation Steps
 
 1. **Clone or download this repository**
 
@@ -168,7 +180,15 @@ ITD105-Final-Project/
 
 ## Deployment
 
+### Live Application
+
+The application is currently deployed and accessible at:
+
+**[https://itd105-final-project.streamlit.app/](https://itd105-final-project.streamlit.app/)**
+
 ### Streamlit Cloud Deployment
+
+To deploy your own instance:
 
 1. Push your code to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
