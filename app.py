@@ -186,6 +186,31 @@ if page == "SDG 14 Overview":
         Use the best model to assess species risk and support 
         conservation planning decisions.
         """)
+    
+    st.markdown("---")
+    st.markdown("### 👥 Project Team")
+    
+    st.write("""
+    This project was developed by the following team members:
+    """)
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.write("""
+        - **Brianna Glaze Barnett**
+        - **Jasper Gumora**
+        - **Luis Marco Quilantang**
+        """)
+    
+    with col2:
+        st.write("""
+        - **Maria Vianell Tadoy**
+        - **Jubil Leo Ventic**
+        """)
+    
+    st.markdown("---")
+    st.markdown("**Course:** ITD105 - Big Data Analytics | **Project:** Case Study - ML Web Application | **Focus:** UN SDG 14 - Life Below Water")
 
 # PAGE 2: Dataset Explorer
 elif page == "Dataset Explorer":
