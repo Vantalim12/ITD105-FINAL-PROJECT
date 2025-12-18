@@ -1,0 +1,136 @@
+================================================================================
+  STREAMLIT CLOUD DEPLOYMENT CHECKLIST
+  ITD105 - Fish Conservation Status Prediction System
+================================================================================
+
+BEFORE YOU DEPLOY - VERIFY ALL FILES ARE READY:
+
+✅ Essential Files (All Present):
+   [✓] app.py (29 KB)
+   [✓] requirements.txt (0.1 KB)
+   [✓] fish_conservation_data.csv (77 KB)
+   [✓] best_model.pkl (2.7 MB)
+   [✓] all_models.pkl (2.9 MB)
+   [✓] .streamlit/config.toml (0.2 KB)
+
+✅ Requirements.txt Content:
+   pandas==2.1.4
+   numpy==1.26.2
+   scikit-learn==1.3.2
+   matplotlib==3.8.2
+   seaborn==0.13.0
+   streamlit==1.29.0
+
+================================================================================
+  DEPLOYMENT STEPS
+================================================================================
+
+STEP 1: COMMIT ALL FILES TO GIT
+--------------------------------
+Run these commands:
+
+git status
+git add app.py requirements.txt fish_conservation_data.csv best_model.pkl all_models.pkl .streamlit/
+git commit -m "Prepare for Streamlit Cloud deployment"
+git push origin main
+
+STEP 2: DEPLOY ON STREAMLIT CLOUD
+----------------------------------
+1. Go to: https://share.streamlit.io
+2. Sign in with GitHub
+3. Click "New app"
+4. Configure:
+   - Repository: [your-username]/itd105-final-project
+   - Branch: main
+   - Main file path: app.py
+5. Click "Deploy!"
+
+STEP 3: WAIT FOR DEPLOYMENT
+----------------------------
+- Deployment takes 3-5 minutes
+- Watch the logs for package installation
+- Look for: "Your app is now deployed"
+
+STEP 4: TEST YOUR APP
+----------------------
+1. Open the app URL: https://[your-app-name].streamlit.app/
+2. Test all 5 pages:
+   - SDG 14 Overview
+   - Dataset Explorer
+   - Model Comparison
+   - Prediction Tool
+   - Conclusion & Impact
+3. Make a test prediction
+
+================================================================================
+  TROUBLESHOOTING
+================================================================================
+
+IF YOU GET "ModuleNotFoundError: matplotlib":
+----------------------------------------------
+1. Verify requirements.txt is in your GitHub repo (check on GitHub website)
+2. On Streamlit Cloud:
+   - Click "Manage app" → "Delete app"
+   - Create a new app (don't just reboot)
+3. This forces a fresh package installation
+
+IF FILES ARE MISSING:
+---------------------
+1. Check .gitignore - make sure .csv and .pkl files aren't ignored
+2. Run: git add *.csv *.pkl
+3. Run: git commit -m "Add data files"
+4. Run: git push
+
+IF APP WON'T START:
+-------------------
+1. Click "Manage app" → "Logs"
+2. Look for error messages
+3. Fix issues locally
+4. Push changes to GitHub
+5. App will auto-redeploy
+
+================================================================================
+  VERIFICATION COMMANDS
+================================================================================
+
+Check files are committed:
+--------------------------
+git ls-files | grep -E "(app.py|requirements.txt|.csv|.pkl)"
+
+Check file sizes:
+-----------------
+ls -lh app.py requirements.txt *.csv *.pkl
+
+View requirements:
+------------------
+cat requirements.txt
+
+================================================================================
+  YOUR APP URL
+================================================================================
+
+After deployment, your app will be accessible at:
+
+https://itd105-final-project.streamlit.app/
+
+(Or the custom name you chose during deployment)
+
+Share this URL with anyone to let them use your app!
+
+================================================================================
+  SUPPORT
+================================================================================
+
+Documentation: https://docs.streamlit.io/
+Community: https://discuss.streamlit.io/
+Status: https://status.streamlit.io/
+
+================================================================================
+
+READY TO DEPLOY? Follow the steps above! 🚀
+
+Your app is fully configured and ready for Streamlit Cloud deployment.
+All required files are present and properly formatted.
+
+================================================================================
+
